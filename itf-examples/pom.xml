@@ -41,6 +41,7 @@
     <dependency>
       <groupId>com.soebes.itf.jupiter.extension</groupId>
       <artifactId>itf-assertj</artifactId>
+        <version>${revision}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -51,6 +52,7 @@
     <dependency>
       <groupId>com.soebes.itf.jupiter.extension</groupId>
       <artifactId>itf-jupiter-extension</artifactId>
+        <version>${revision}</version>
       <scope>test</scope>
     </dependency>
     <!-- end::dependencies[] -->
