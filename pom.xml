@@ -132,6 +132,16 @@
         <artifactId>maven-resolver-util</artifactId>
         <version>${maven-resolver.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.soebes.itf.jupiter.extension</groupId>
+        <artifactId>itf-assertj</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.soebes.itf.jupiter.extension</groupId>
+        <artifactId>itf-jupiter-extension</artifactId>
+        <version>${project.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -270,6 +280,4 @@
     <module>itf-examples</module>
     <module>itf-documentation</module>
   </modules>
-
-
 </project>
