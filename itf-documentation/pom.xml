@@ -12,7 +12,7 @@
     </parent>
 
     <!-- Any project with packing pom has to be present -->
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <artifactId>itf-documentation</artifactId>
 
