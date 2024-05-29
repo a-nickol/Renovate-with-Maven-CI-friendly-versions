@@ -21,21 +21,6 @@
         <revision>DEVELOP-SNAPSHOT</revision>
     </properties>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.soebes.itf.jupiter.extension</groupId>
-                <artifactId>itf-assertj</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.soebes.itf.jupiter.extension</groupId>
-                <artifactId>itf-jupiter-extension</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <modules>
         <module>itf-assertj</module>
         <module>itf-documentation</module>
