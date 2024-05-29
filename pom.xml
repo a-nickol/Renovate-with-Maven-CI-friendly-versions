@@ -37,8 +37,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>itf-extension-maven</module>
-        <module>itf-jupiter-extension</module>
         <module>itf-assertj</module>
         <module>itf-documentation</module>
     </modules>
