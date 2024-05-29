@@ -20,7 +20,6 @@
     </properties>
 
     <modules>
-        <module>itf-assertj</module>
         <module>itf-documentation</module>
     </modules>
 </project>
