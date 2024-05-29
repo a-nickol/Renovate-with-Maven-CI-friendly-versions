@@ -5,13 +5,6 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.soebes.smpp</groupId>
-        <artifactId>smpp</artifactId>
-        <version>6.0.6</version>
-        <relativePath/>
-    </parent>
-
     <groupId>com.soebes.itf.jupiter.extension</groupId>
     <artifactId>itf-extension</artifactId>
     <version>${revision}</version>
