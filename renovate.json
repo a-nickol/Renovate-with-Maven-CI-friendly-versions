@@ -4,19 +4,7 @@
     "config:recommended"
   ],
   "enabled" : true,
-  "separateMajorMinor" : true,
   "packageRules" : [
-    {
-      "matchPackagePatterns" : [
-        "*"
-      ],
-      "matchUpdateTypes" : [
-        "minor",
-        "patch"
-      ],
-      "groupName" : "all minor patch dependencies",
-      "groupSlug" : "all-minor-patch"
-    },
     {
       "matchPackagePatterns" : [
         "com.soebes.itf.jupiter.extension.*"
