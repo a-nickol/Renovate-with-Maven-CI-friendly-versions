@@ -16,36 +16,12 @@
   <version>${revision}</version>
   <packaging>pom</packaging>
 
-  <scm>
-    <connection>scm:git:https://github.com/khmarbaise/maven-it-extension.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/khmarbaise/maven-it-extension.git</developerConnection>
-    <url>https://github.com/khmarbaise/maven-it-extension</url>
-    <tag>HEAD</tag>
-  </scm>
-
-  <distributionManagement>
-    <site>
-      <id>github</id>
-      <url>scm:git:ssh://git@github.com/khmarbaise/maven-it-extension.git</url>
-    </site>
-  </distributionManagement>
-
   <properties>
     <revision>DEVELOP-SNAPSHOT</revision>
   </properties>
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>org.apache.maven.resolver</groupId>
-        <artifactId>maven-resolver-api</artifactId>
-        <version>${maven-resolver.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.maven.resolver</groupId>
-        <artifactId>maven-resolver-util</artifactId>
-        <version>${maven-resolver.version}</version>
-      </dependency>
       <dependency>
         <groupId>com.soebes.itf.jupiter.extension</groupId>
         <artifactId>itf-assertj</artifactId>
@@ -62,8 +38,6 @@
   <modules>
     <module>itf-jupiter-extension</module>
     <module>itf-assertj</module>
-    <module>itf-extension-maven</module>
-    <module>itf-examples</module>
     <module>itf-documentation</module>
   </modules>
 </project>
