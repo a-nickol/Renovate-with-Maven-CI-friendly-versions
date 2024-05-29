@@ -14,21 +14,13 @@
     <artifactId>itf-extension</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
+
     <properties>
         <revision>DEVELOP-SNAPSHOT</revision>
     </properties>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.soebes.itf.jupiter.extension</groupId>
-                <artifactId>itf-extension-maven</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+
     <modules>
         <module>itf-assertj</module>
         <module>itf-documentation</module>
-        <module>itf-extension-maven</module>
     </modules>
 </project>

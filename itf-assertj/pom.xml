@@ -8,10 +8,4 @@
         <version>${revision}</version>
     </parent>
     <artifactId>itf-assertj</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>com.soebes.itf.jupiter.extension</groupId>
-            <artifactId>itf-extension-maven</artifactId>
-        </dependency>
-    </dependencies>
 </project>
