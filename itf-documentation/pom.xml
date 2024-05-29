@@ -11,6 +11,7 @@
         <version>${revision}</version>
     </parent>
 
+    <!-- Any project with packing pom has to be present -->
     <packaging>pom</packaging>
 
     <artifactId>itf-documentation</artifactId>
